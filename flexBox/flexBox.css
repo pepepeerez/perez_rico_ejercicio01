@@ -1,0 +1,22 @@
+.cabecera {
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+    padding: 10px;
+}
+
+.cabecera ul {
+    display: flex;
+    justify-content: flex-end;
+    margin:50px;
+}
+
+.cabecera li {
+    margin-right: 20px;
+    text-align: right;
+}
+
+.cabecera img{
+    height: 100px;
+    margin: 40px;
+}
