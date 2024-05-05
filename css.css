@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #9f9999;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  padding: auto;
+  align-items: center;
+  padding: 20px;
+  background-color: #9f9999;
+  color: #fff;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo p{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #666464;
+}
+
+.cabecera .logo p strong {
+  color: #fff; 
+}
+
+.cabecera .logo p  {
+  color: rgb(80, 80, 233); 
+}
+
+.inicio {
+  text-align: center;
+  padding: 150px;
+  background-color: #9f9999;
+}
+
+.inicio h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.inicio h2  span {
+  font-size: 24px;
+  color: #21d8f0;
+}
+
+.inicio {
+  text-align: left;
+}
+
+.inicio h2  {
+  font-size: 24px;
+  color: #0e0e0f;
+}
+
+.botones button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #08c5ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px; 
+}
+
+.dudas {
+  margin-right: 10px;
+}
+
+.info {
+  background-color: #ff6600;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
